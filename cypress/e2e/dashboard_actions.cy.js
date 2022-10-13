@@ -43,6 +43,7 @@ describe('Thrive Automator Tests', () => {
         cy.get('.tap-button--save').click()
 
       })
+    })
 
 // bulk actions: activate, deactivate, delete-Cancel, delete-Yes
 
@@ -88,4 +89,6 @@ describe('Thrive Automator Tests', () => {
       cy.get('.tap-button--delete').click()
       cy.get('.tap-no-automations-content').should('be.visible')
     })
+
    })
+
